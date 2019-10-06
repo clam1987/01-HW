@@ -1,0 +1,44 @@
+.topnav {
+    padding: 26px;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.active {
+    background: #4aaaa5;
+    padding: 48px 83px 27px 83px;
+    font-size: 30px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+.navlink {
+    margin: -2px;
+    border-left: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #999999;
+}
