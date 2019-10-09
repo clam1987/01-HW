@@ -105,3 +105,55 @@ img {
 p {
     margin-bottom: 35px;
 }
+
+/* Contact Form */
+
+.contactcontainer {
+    width: 100%;
+    max-width: 576px;
+    background: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    clear: both;
+}
+
+#contact-form ul {
+    margin-bottom: 20px;
+}
+
+#contact-form li {
+    margin-bottom: 10px;
+}
+
+/* Editting Label input text and email adding textarea property */
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 12px;
+    border: 1px solid #dddddd;
+}
+
+textarea {
+    height: 150px;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }

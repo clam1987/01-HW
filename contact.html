@@ -16,15 +16,39 @@
         </nav>
       </div>
     </div>
-    <div class="container">
-      <h1>Contact</h1>
-      <form>
-        Name:
-        <input type="text" name="name" />
-        Email:
-        <input type="email" name="email" />
-        Message:
-        <textarea name="message" rows="20" cols="90"></textarea>
+    <div class="contactcontainer">
+      <h1 style="color: #4aaaa5">Contact</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="John Smith"
+              required="required"
+            />
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+              required="required"
+            />
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              required="required"
+            ></textarea>
+          </li>
+        </ul>
         <button class="btn">Submit</button>
       </form>
     </div>
