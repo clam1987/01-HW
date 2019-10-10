@@ -168,6 +168,8 @@ textarea {
     margin: 40px 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
+    position: relative;
+    left: 250px;
   }
 
   .project {
